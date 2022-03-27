@@ -11,6 +11,7 @@
   inputs.src-distorm3-master.ref   = "refs/heads/master";
   inputs.src-distorm3-master.owner = "ba0f3";
   inputs.src-distorm3-master.repo  = "distorm3.nim";
+  inputs.src-distorm3-master.dir   = "";
   inputs.src-distorm3-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
